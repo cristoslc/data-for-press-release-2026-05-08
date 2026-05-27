@@ -1,0 +1,26 @@
+---
+title: "State Counting Methodology"
+layout: layout.njk
+permalink: /methodology/state-counting.html
+---
+
+<h1>Counting unique states in the SPPD Flock network</h1>
+
+<h2>Method</h2>
+
+<p>After normalizing all 602+ agency names and extracting state codes (step 2 of the pipeline), the script <code>count_states.py</code> deduplicates the extracted state codes and produces a list of unique states.</p>
+
+<h2>Result</h2>
+
+<p>44 unique states (plus D.C. if applicable from the original data). The full list is at <code>outputs/sppd-sharing-states/states.csv</code>.</p>
+
+<h2>Caveats</h2>
+
+<ul>
+  <li>Agencies with no extractable state code (e.g., <code>"CSX Railroad"</code>, <code>"MAGLOCLEN RISS"</code>) are excluded from the state count.</li>
+  <li>Full state names in agency names (e.g., <code>"Massachusetts Department of Correction"</code>) are converted to 2-letter codes.</li>
+</ul>
+
+<h2>Script</h2>
+
+<p><code>analysis/count_states.py</code></p>

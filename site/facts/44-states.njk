@@ -1,0 +1,58 @@
+---
+title: "44 States in SPPD Flock Network"
+layout: layout.njk
+permalink: /facts/44-states.html
+---
+
+<h1>44 states have agencies with SPPD camera access</h1>
+
+<p>After normalizing all 602+ agencies and extracting their state codes, the SPPD Flock network spans <strong>{{ states.length }} states</strong>.</p>
+
+<h2>Verify this yourself</h2>
+
+<h3>Step 1: Download the data</h3>
+
+<p><a href="{{ "/outputs/sppd-sharing-states/states.csv" | url }}" class="cta">Download states.csv</a></p>
+
+<p>Or download the source used to derive it:</p>
+<ul>
+  <li><a href="{{ "/data/derived/sppd-shared-networks/sppd-shared-networks-normalized.csv" | url }}">sppd-shared-networks-normalized.csv</a> (602 agencies with state codes)</li>
+  <li><a href="{{ "/outputs/sppd-sharing-states/org_name_state_sharing.csv" | url }}">org_name_state_sharing.csv</a> (agency-to-state mapping)</li>
+</ul>
+
+<h3>Step 2: Open in a spreadsheet</h3>
+
+<ol>
+  <li>Open Google Sheets or Excel</li>
+  <li>Go to <strong>File → Import → Upload</strong></li>
+  <li>Upload <code>states.csv</code></li>
+  <li>The file has a single column <code>state</code> with 2-letter state codes</li>
+</ol>
+
+<h3>Step 3: Count unique states</h3>
+
+<ol>
+  <li>Open <code>sppd-shared-networks-normalized.csv</code> instead if you want to verify from the agency list</li>
+  <li>Select the <code>state</code> column</li>
+  <li>In Google Sheets: <code>=COUNTUNIQUE(C2:C)</code></li>
+  <li>In Excel: <code>=SUM(1/COUNTIF(C2:C,C2:C))</code> (Ctrl+Shift+Enter for array formula)</li>
+  <li>The result should be <strong>{{ states.length }}</strong></li>
+</ol>
+
+<h3>Step 4: Cross-check state list</h3>
+
+<p>Compare the state list against the <code>states.csv</code> output above. All {{ states.length }} two-letter codes should appear exactly once.</p>
+
+<h2>All states</h2>
+
+<div class="states-grid">
+  {% for s in states %}
+  <span class="state-badge">{{ s | upper }}</span>
+  {% endfor %}
+</div>
+
+<h2>Methodology</h2>
+
+<p>States were extracted from normalized agency names using full state name and two-letter abbreviation matching. The script <code>count_states.py</code> produces the unique state list.</p>
+
+<p><a href="{{ "/methodology/state-counting.html" | url }}">State counting methodology →</a></p>

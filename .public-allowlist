@@ -1,0 +1,9 @@
+# Public-facing files — everything else is internal (Forgejo-only).
+# One glob pattern per line. Matching files are included on the public branch.
+# This file itself is public — it explains what you're seeing.
+data/**
+analysis/**
+outputs/**
+scripts/**
+PURPOSE.md
+README.md

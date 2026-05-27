@@ -1,0 +1,29 @@
+id: press-release-2026-05-08
+created: 2026-05-24
+refreshed: 2026-05-24
+tags:
+  - flock-safety
+  - south-portland
+  - surveillance
+  - ice
+  - press-release
+  - no-flock-for-sopo
+  - alpr
+freshness-ttl:
+  press-release: never
+sources:
+  - id: no-flock-for-sopo-press-release
+    type: press-release
+    title: "BREAKING: New Records Reveal Nationwide Police Access to Mainers' Daily Lives"
+    published: 2026-05-08
+    source: No Flock for SoPo
+    contact: Alex Redfield, (207) 744-8684
+    url: null
+    fetched: 2026-05-24
+    content-hash: d72e13e233d366384f7e4a0c2f56f3c27d3677d27becefb7cbcbc7dd279e2d93
+    notes: Pasted directly by operator. Press release text only; excludes internal FOAA-process appendix.
+history:
+  - event: created
+    date: 2026-05-24
+    commit: "699424c"
+    sources: 1

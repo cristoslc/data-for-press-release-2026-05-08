@@ -1,0 +1,23 @@
+---
+title: "Audit Log Deduplication Methodology"
+layout: layout.njk
+permalink: /methodology/deduplication.html
+---
+
+<h1>Deduplication of Flock audit logs</h1>
+
+<h2>Problem</h2>
+
+<p>Flock audit logs record one row per network queried. When an officer searches multiple networks in one session (e.g., querying 3 camera networks), 3 rows appear. The deduplication step merges these into a single "search session."</p>
+
+<h2>Method</h2>
+
+<p>Rows are grouped by: officer name, organization name, reason, case number, and time window. Rows that share all these fields are merged into one session. The <code>Networks Queried</code> field records how many networks were hit.</p>
+
+<h2>Result</h2>
+
+<p>2,007 raw rows → 1,572 unique search sessions.</p>
+
+<h2>Script</h2>
+
+<p><code>analysis/deduplicate_audit_logs.py</code></p>

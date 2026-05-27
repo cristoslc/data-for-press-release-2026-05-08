@@ -1,0 +1,215 @@
+Name,Org Name,Reason,Case #,Time Frame,Search Type,Search Date,Search Time,Networks Queried,Source File,assist_label,assist_pattern
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - drug investigation/ assist other agency,26D000003,"12/06/2025, 05:30:49 PM UTC
+01/05/2026, 05:30:49 PM UTC",lookup,01/05/2026,05:28:52 PM UTC,1,1_1_2026-1_31_2026-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Christopher Todd,South Portland ME PD,Drugs/Narcotics - MDEA request,26D000003,"12/16/2025, 07:30:00 PM UTC
+01/06/2026, 07:30:00 PM UTC",lookup,01/06/2026,07:13:17 PM UTC,1,1_1_2026-1_31_2026-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - miac req,,"12/23/2025, 06:00:02 PM UTC
+01/22/2026, 06:00:02 PM UTC",lookup,01/22/2026,05:52:03 PM UTC,1,1_1_2026-1_31_2026-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MIAC MDEA,,"01/06/2026, 07:30:25 PM UTC
+02/05/2026, 07:30:25 PM UTC",lookup,02/05/2026,07:21:27 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MIAC MDEA,,"01/06/2026, 07:30:31 PM UTC
+02/05/2026, 07:30:31 PM UTC",lookup,02/05/2026,07:21:34 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - mdea via miac,,"01/11/2026, 03:30:44 PM UTC
+02/10/2026, 03:30:44 PM UTC",lookup,02/10/2026,03:02:47 PM UTC,2,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"01/12/2026, 01:00:24 PM UTC
+02/11/2026, 01:00:24 PM UTC",lookup,02/11/2026,12:33:46 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"01/13/2026, 07:30:46 PM UTC
+02/12/2026, 07:30:46 PM UTC",lookup,02/12/2026,07:01:49 PM UTC,4,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - miac mdea,,"01/14/2026, 03:00:36 PM UTC
+02/13/2026, 03:00:36 PM UTC",lookup,02/13/2026,02:51:40 PM UTC,2,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - Assist other,,"02/26/2026, 02:06:23 PM UTC
+02/27/2026, 02:06:23 PM UTC",lookup - Mobile,02/27/2026,02:06:27 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"02/27/2026, 10:30:57 AM UTC
+02/27/2026, 12:30:57 PM UTC",lookup,02/27/2026,12:01:21 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"02/26/2026, 12:30:34 PM UTC
+02/27/2026, 12:30:34 PM UTC",lookup,02/27/2026,12:01:35 PM UTC,2,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"02/26/2026, 10:30:00 AM UTC
+02/27/2026, 12:30:00 PM UTC",search,02/27/2026,12:05:22 PM UTC,1,2_1_2026-2_28_2026-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA - MIAC,,"01/31/2026, 01:00:32 PM UTC
+03/02/2026, 01:00:32 PM UTC",lookup,03/02/2026,12:52:34 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"03/04/2026, 02:00:30 PM UTC
+03/04/2026, 04:00:30 PM UTC",lookup,03/04/2026,03:40:00 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"02/26/2026, 02:00:00 PM UTC
+03/04/2026, 04:00:00 PM UTC",lookup,03/04/2026,03:40:08 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Drugs/Narcotics - assist other,,"02/28/2026, 02:00:00 PM UTC
+03/01/2026, 04:30:00 AM UTC",lookup,03/04/2026,04:03:22 PM UTC,3,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/02/2026, 06:30:58 PM UTC
+03/04/2026, 06:30:58 PM UTC",lookup,03/04/2026,06:20:01 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Christopher Todd,South Portland ME PD,Extortion/Blackmail - Assist other agency investigation,NH assist,"02/19/2026, 03:30:44 PM UTC
+03/05/2026, 03:30:44 PM UTC",lookup,03/05/2026,03:27:55 PM UTC,3,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MIAC DEA,,"02/04/2026, 08:00:28 PM UTC
+03/06/2026, 08:00:28 PM UTC",lookup,03/06/2026,07:51:30 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - mdea via miac,,"02/15/2026, 05:00:43 PM UTC
+03/17/2026, 05:00:43 PM UTC",lookup,03/17/2026,04:56:46 PM UTC,2,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/21/2026, 04:00:33 PM UTC
+03/23/2026, 04:00:33 PM UTC",lookup,03/23/2026,03:36:45 PM UTC,2,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/22/2026, 07:00:44 PM UTC
+03/24/2026, 07:00:44 PM UTC",lookup,03/24/2026,06:48:47 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/22/2026, 07:00:00 PM UTC
+03/24/2026, 07:00:00 PM UTC",lookup,03/24/2026,06:49:01 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - mdea via miac,,"02/23/2026, 12:30:42 PM UTC
+03/25/2026, 12:30:42 PM UTC",lookup,03/25/2026,12:21:44 PM UTC,4,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - mdea via miac,,"02/23/2026, 12:30:40 PM UTC
+03/25/2026, 12:30:40 PM UTC",lookup,03/25/2026,12:23:42 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/28/2026, 03:30:31 PM UTC
+03/30/2026, 03:30:31 PM UTC",lookup,03/30/2026,03:11:41 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - mdea via miac,,"02/28/2026, 05:30:38 PM UTC
+03/30/2026, 05:30:38 PM UTC",lookup,03/30/2026,05:13:40 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,Drugs/Narcotics - MDEA via MIAC,,"02/28/2026, 06:30:30 PM UTC
+03/30/2026, 06:30:30 PM UTC",lookup,03/30/2026,06:10:33 PM UTC,1,3_1_2026-3_31_2026-South Portland ME PD-Audit (1).csv,statewide-system,mdea\s
+Jonathan Stearns,South Portland ME PD,Assist other,,"06/27/2025, 11:57:15 PM UTC
+06/28/2025, 11:57:15 AM UTC",search - Mobile,06/28/2025,11:57:17 AM UTC,1,6_1_2025-6_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"06/28/2025, 12:01:49 AM UTC
+06/28/2025, 12:01:49 PM UTC",search - Mobile,06/28/2025,12:01:50 PM UTC,1,6_1_2025-6_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"06/27/2025, 04:00:00 AM UTC
+06/30/2025, 04:00:00 PM UTC",search,07/01/2025,03:35:36 PM UTC,2,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"06/27/2025, 02:00:00 PM UTC
+07/01/2025, 04:00:00 PM UTC",search,07/01/2025,03:53:41 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"06/26/2025, 02:00:00 PM UTC
+07/01/2025, 04:00:00 PM UTC",search,07/01/2025,03:54:41 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"06/24/2025, 04:55:19 AM UTC
+07/01/2025, 04:55:19 AM UTC",search - Mobile,07/01/2025,04:55:20 AM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"06/01/2025, 04:00:00 AM UTC
+07/01/2025, 03:59:59 AM UTC",search - Mobile,07/01/2025,04:55:55 AM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"06/01/2025, 07:00:48 PM UTC
+07/01/2025, 07:00:48 PM UTC",search,07/01/2025,06:47:55 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/14/2025, 11:00:00 PM UTC
+07/14/2025, 11:59:59 PM UTC",search - Mobile,07/16/2025,10:23:58 PM UTC,3,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/14/2025, 11:00:00 PM UTC
+07/14/2025, 11:49:59 PM UTC",search - Mobile,07/16/2025,10:38:48 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"07/14/2025, 11:00:00 PM UTC
+07/15/2025, 12:00:00 AM UTC",search,07/17/2025,01:17:15 PM UTC,2,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"07/14/2025, 11:00:00 PM UTC
+07/14/2025, 11:30:00 PM UTC",search,07/17/2025,01:20:16 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,miac request,,"06/04/2025, 03:30:00 PM UTC
+07/25/2025, 05:30:00 PM UTC",lookup,07/25/2025,05:12:06 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,miac request,,"06/29/2025, 07:30:58 PM UTC
+07/29/2025, 07:30:58 PM UTC",lookup,07/29/2025,07:13:06 PM UTC,1,7_1_2025-7_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/29/2025, 12:09:18 AM UTC
+08/05/2025, 12:09:18 AM UTC",lookup - Mobile,08/05/2025,12:09:19 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/05/2025, 04:00:00 AM UTC
+08/05/2025, 12:08:59 AM UTC",lookup - Mobile,08/05/2025,12:09:58 AM UTC,4,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/29/2025, 12:13:36 AM UTC
+08/05/2025, 12:13:36 AM UTC",lookup - Mobile,08/05/2025,12:13:38 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"07/31/2025, 08:11:18 PM UTC
+08/07/2025, 08:11:18 PM UTC",lookup - Mobile,08/07/2025,08:11:20 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Christopher Todd,South Portland ME PD,MIAC request,,"08/09/2025, 01:12:04 AM UTC
+08/10/2025, 01:12:04 AM UTC",lookup - Mobile,08/10/2025,01:12:04 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Christopher Todd,South Portland ME PD,MIAC request,,"08/09/2025, 01:12:36 AM UTC
+08/10/2025, 01:12:36 AM UTC",lookup - Mobile,08/10/2025,01:12:37 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Christopher Todd,South Portland ME PD,MIAC request,,"08/03/2025, 01:13:44 AM UTC
+08/10/2025, 01:13:44 AM UTC",lookup - Mobile,08/10/2025,01:13:45 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Christopher Todd,South Portland ME PD,MIAC request,,"08/03/2025, 01:14:22 AM UTC
+08/10/2025, 01:14:22 AM UTC",lookup - Mobile,08/10/2025,01:14:22 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/07/2025, 01:31:03 PM UTC
+08/14/2025, 01:31:03 PM UTC",lookup - Mobile,08/14/2025,01:31:06 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/07/2025, 02:07:02 PM UTC
+08/14/2025, 02:07:02 PM UTC",lookup - Mobile,08/14/2025,02:07:02 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/07/2025, 02:07:12 PM UTC
+08/14/2025, 02:07:12 PM UTC",lookup - Mobile,08/14/2025,02:07:13 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 08:09:02 AM UTC
+08/14/2025, 02:09:02 PM UTC",lookup - Mobile,08/14/2025,02:09:02 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 08:10:59 AM UTC
+08/14/2025, 02:10:59 PM UTC",lookup - Mobile,08/14/2025,02:11:00 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 08:29:18 AM UTC
+08/14/2025, 02:29:18 PM UTC",lookup - Mobile,08/14/2025,02:29:19 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 08:47:25 AM UTC
+08/14/2025, 02:47:25 PM UTC",lookup - Mobile,08/14/2025,02:47:25 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 08:49:50 AM UTC
+08/14/2025, 02:49:50 PM UTC",lookup - Mobile,08/14/2025,02:49:50 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/14/2025, 11:24:46 PM UTC
+08/15/2025, 11:24:46 AM UTC",lookup - Mobile,08/15/2025,11:24:47 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/15/2025, 04:00:00 AM UTC
+08/15/2025, 06:59:59 AM UTC",search - Mobile,08/15/2025,11:36:05 AM UTC,5,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/17/2025, 03:20:58 PM UTC
+08/18/2025, 03:20:58 PM UTC",lookup - Mobile,08/18/2025,03:20:58 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/11/2025, 03:21:07 PM UTC
+08/18/2025, 03:21:07 PM UTC",lookup - Mobile,08/18/2025,03:21:08 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/17/2025, 03:21:18 PM UTC
+08/18/2025, 03:21:18 PM UTC",lookup - Mobile,08/18/2025,03:21:19 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,miac req,,"06/01/2025, 03:30:00 PM UTC
+08/18/2025, 05:30:00 PM UTC",lookup,08/18/2025,05:22:07 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/17/2025, 11:05:25 PM UTC
+08/18/2025, 11:05:25 AM UTC",search - Mobile,08/18/2025,11:05:26 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/17/2025, 11:06:15 AM UTC
+08/18/2025, 11:06:15 AM UTC",search - Mobile,08/18/2025,11:06:16 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/11/2025, 11:08:55 AM UTC
+08/18/2025, 11:08:55 AM UTC",search - Mobile,08/18/2025,11:08:57 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/18/2025, 12:22:01 AM UTC
+08/18/2025, 12:22:01 PM UTC",search - Mobile,08/18/2025,12:22:02 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/18/2025, 12:23:32 AM UTC
+08/18/2025, 12:23:32 PM UTC",search - Mobile,08/18/2025,12:23:33 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,miac mdea req,,"06/01/2025, 09:00:00 AM UTC
+08/22/2025, 11:00:00 AM UTC",lookup,08/22/2025,10:48:44 AM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,miac req,,"07/26/2025, 04:30:16 PM UTC
+08/25/2025, 04:30:16 PM UTC",lookup,08/25/2025,04:33:27 PM UTC,8,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/18/2025, 05:03:32 PM UTC
+08/25/2025, 05:03:32 PM UTC",lookup - Mobile,08/25/2025,05:03:35 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/18/2025, 06:25:38 PM UTC
+08/25/2025, 06:25:38 PM UTC",lookup - Mobile,08/25/2025,06:25:40 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"08/18/2025, 06:27:56 PM UTC
+08/25/2025, 06:27:56 PM UTC",lookup - Mobile,08/25/2025,06:27:57 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,assist-other,assist\s*other
+Christopher Todd,South Portland ME PD,MIAC request,,"08/01/2025, 04:00:00 AM UTC
+08/26/2025, 06:39:59 PM UTC",lookup - Mobile,08/26/2025,06:40:46 PM UTC,1,8_1_2025-8_31_2025-South Portland ME PD-Audit (1).csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,assist other,,"09/01/2025, 06:00:55 PM UTC
+09/02/2025, 06:00:55 PM UTC",lookup,09/02/2025,05:50:58 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Christopher Todd,South Portland ME PD,MDEA Investigation,,"08/12/2025, 04:00:10 PM UTC
+09/11/2025, 04:00:10 PM UTC",lookup,09/11/2025,03:36:15 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Christopher Todd,South Portland ME PD,MDEA Investigation,,"08/12/2025, 04:00:40 PM UTC
+09/11/2025, 04:00:40 PM UTC",lookup,09/11/2025,03:36:42 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jonathan Stearns,South Portland ME PD,Assist other,DDF8516,"09/05/2025, 02:53:14 PM UTC
+09/12/2025, 02:53:14 PM UTC",search - Mobile,09/12/2025,02:53:16 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,DDF8516,"09/11/2025, 02:54:13 PM UTC
+09/12/2025, 02:54:13 PM UTC",search - Mobile,09/12/2025,02:54:14 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"09/05/2025, 02:54:52 PM UTC
+09/12/2025, 02:54:52 PM UTC",lookup - Mobile,09/12/2025,02:54:54 PM UTC,1,9_1_2025-9_30_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,mdea req,,"09/06/2025, 03:00:10 PM UTC
+10/06/2025, 03:00:10 PM UTC",lookup,10/06/2025,02:36:13 PM UTC,2,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jonathan Stearns,South Portland ME PD,assist other,,"09/22/2025, 04:00:05 PM UTC
+10/06/2025, 04:00:05 PM UTC",lookup,10/06/2025,03:33:10 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"09/22/2025, 04:00:18 PM UTC
+10/06/2025, 04:00:18 PM UTC",lookup,10/06/2025,03:33:28 PM UTC,2,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"09/06/2025, 04:00:56 PM UTC
+10/06/2025, 04:00:56 PM UTC",lookup,10/06/2025,03:34:01 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,assist other,,"09/06/2025, 04:00:11 PM UTC
+10/06/2025, 04:00:11 PM UTC",lookup,10/06/2025,03:34:17 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,miac request,,"09/16/2025, 03:30:20 PM UTC
+10/16/2025, 03:30:20 PM UTC",lookup,10/16/2025,03:28:22 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Miac request,,"10/21/2025, 08:22:33 PM UTC
+10/28/2025, 08:22:33 PM UTC",lookup - Mobile,10/28/2025,08:22:34 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,Miac request,,"09/28/2025, 08:22:35 PM UTC
+10/28/2025, 08:22:35 PM UTC",lookup - Mobile,10/28/2025,08:22:36 PM UTC,1,10_1_2025-10_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,mdea req,,"10/13/2025, 04:30:12 PM UTC
+11/12/2025, 04:30:12 PM UTC",lookup,11/12/2025,04:25:15 PM UTC,1,11_1_2025-11_30_2025-South Portland ME PD-Audit.csv,statewide-system,mdea\s
+Jeff Levesque,South Portland ME PD,miac lrp req,,"11/03/2025, 05:30:13 PM UTC
+12/03/2025, 05:30:13 PM UTC",lookup,12/03/2025,05:23:15 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,miac request,,"11/08/2025, 12:00:59 PM UTC
+12/08/2025, 12:00:59 PM UTC",lookup,12/08/2025,11:53:01 AM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jeff Levesque,South Portland ME PD,miac req,,"11/09/2025, 05:30:45 PM UTC
+12/09/2025, 05:30:45 PM UTC",lookup,12/09/2025,05:15:48 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,statewide-system,miac\s
+Jonathan Stearns,South Portland ME PD,assist other,,"12/01/2025, 03:00:00 PM UTC
+12/15/2025, 05:00:00 PM UTC",lookup,12/15/2025,04:51:30 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"12/01/2025, 05:00:00 AM UTC
+12/18/2025, 02:53:59 AM UTC",lookup - Mobile,12/18/2025,02:54:58 AM UTC,2,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"12/11/2025, 05:35:46 PM UTC
+12/18/2025, 05:35:46 PM UTC",lookup - Mobile,12/18/2025,05:35:46 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"11/18/2025, 05:35:47 PM UTC
+12/18/2025, 05:35:47 PM UTC",lookup - Mobile,12/18/2025,05:35:48 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"12/11/2025, 05:36:07 PM UTC
+12/18/2025, 05:36:07 PM UTC",lookup - Mobile,12/18/2025,05:36:07 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"11/18/2025, 05:36:08 PM UTC
+12/18/2025, 05:36:08 PM UTC",lookup - Mobile,12/18/2025,05:36:09 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"12/11/2025, 05:36:27 PM UTC
+12/18/2025, 05:36:27 PM UTC",lookup - Mobile,12/18/2025,05:36:28 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other. Homicide.,,"11/18/2025, 05:36:29 PM UTC
+12/18/2025, 05:36:29 PM UTC",lookup - Mobile,12/18/2025,05:36:30 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"11/27/2025, 05:00:00 AM UTC
+12/18/2025, 12:02:59 PM UTC",lookup - Mobile,12/18/2025,12:03:51 PM UTC,2,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other,,"12/17/2025, 12:17:06 PM UTC
+12/18/2025, 12:17:06 PM UTC",lookup - Mobile,12/18/2025,12:17:07 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other,,"12/11/2025, 12:17:09 PM UTC
+12/18/2025, 12:17:09 PM UTC",lookup - Mobile,12/18/2025,12:17:10 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jeff Levesque,South Portland ME PD,Assist  other,,"11/18/2025, 12:17:12 PM UTC
+12/18/2025, 12:17:12 PM UTC",lookup - Mobile,12/18/2025,12:17:14 PM UTC,1,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other
+Jonathan Stearns,South Portland ME PD,Assist other,,"11/28/2025, 05:00:00 AM UTC
+12/19/2025, 08:18:59 PM UTC",lookup - Mobile,12/19/2025,08:19:22 PM UTC,4,12_1_2025-12_31_2025-South Portland ME PD-Audit.csv,assist-other,assist\s*other

@@ -1,0 +1,74 @@
+sppd_norm_name,ice_agency,ice_state,support_types,confidence,match_method,duplicate_flag,shared_network
+henry county al,Henry County Sheriff's Office,AL,Jail Enforcement Model; Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+lonoke county ar,Lonoke County Sheriff's Office,AR,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+sherwood ar,Sherwood Police Department,AR,Task Force Model,1.0,automated,False,South Portland ME PD
+la paz county az,La Paz County Sheriff's Office,AZ,Jail Enforcement Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+boynton beach fl,Boynton Beach Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+brevard county fl,Brevard County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+columbia county fl,Columbia County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+escambia county fl,Escambia County Sheriff's Office,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+hillsborough county fl,Hillsborough County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+lady lake fl,Lady Lake Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+lake city fl,Lake City Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+lakeland fl,Lakeland Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+lantana fl,Lantana Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+miamidade fl,Miami-Dade Sheriff's Office,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+niceville fl,Niceville Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+palm beach county fl,Palm Beach County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+pembroke pines fl,Pembroke Pines Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+pinellas county fl,Pinellas County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+pinellas park fl,Pinellas Park Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+santa rosa county fl,Santa Rosa County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+sarasota fl,Sarasota Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+seminole county fl,Seminole County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+springfield fl,Springfield Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+tallahassee fl,Tallahassee Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+tampa fl,Tampa Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+tarpon springs fl,Tarpon Springs Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+university of south florida fl,University of South Florida Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+vero beach fl,Vero Beach Police Department,FL,Task Force Model,1.0,automated,False,South Portland ME PD
+walton county fl,Walton County Sheriff's Office,FL,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+fish and wildlife commission,Florida Fish & Wildlife Conservation Commission,FL,Task Force Model,0.6,manual,False,South Portland ME PD
+floyd county ga,Floyd County Sheriff's Office,GA,Jail Enforcement Model,1.0,automated,False,South Portland ME PD
+idaho state,Idaho State Police Department,ID,Task Force Model,1.0,automated,False,South Portland ME PD
+coffeyville ks,Coffeyville Police Department,KS,Task Force Model,1.0,automated,False,South Portland ME PD
+pottawatomie county ks,Pottawatomie County Sheriff's Office,KS,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+wabaunsee county so ks,Wabaunsee County Sheriff's Office,KS,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+glasgow ky,Glasgow Police Department,KY,Task Force Model,1.0,automated,False,South Portland ME PD
+ouachita parish la,Ouachita Parish Sheriff's Office,LA,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+massachusetts department of correction,Massachusetts Department of Corrections,MA,Jail Enforcement Model,0.75,automated,False,South Portland ME PD
+taylor mi,Taylor Police Department,MI,Task Force Model,1.0,automated,False,South Portland ME PD
+branson mo,Branson Police Department,MO,Task Force Model,1.0,automated,False,South Portland ME PD
+jefferson county mo,Jefferson County Sheriff's Office,MO,Task Force Model,1.0,automated,False,South Portland ME PD
+woodson terrace mo,Woodson Terrace Police Department,MO,Task Force Model,1.0,automated,False,South Portland ME PD
+mississippi department of public safety,Mississippi Department of Public Safety,MS,Task Force Model,1.0,automated,False,South Portland ME PD
+brunswick county nc,Brunswick County Sheriff's Office,NC,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+columbus county nc,Columbus County Sheriff's Office,NC,Task Force Model; Warrant Service Officer,1.0,automated,False,South Portland ME PD
+person county nc,Person County Sheriff's Office,NC,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+nebraska state patrol,Nebraska State Patrol,NE,Task Force Model,1.0,automated,False,South Portland ME PD
+wheeler county ne,Wheeler County Sheriff's Office,NE,Task Force Model,1.0,automated,False,South Portland ME PD
+hillsborough county nh,Hillsborough County Sheriff's Office,NH,Task Force Model,1.0,automated,False,South Portland ME PD
+new hampshire state,New Hampshire State Police Department,NH,Task Force Model,1.0,automated,False,South Portland ME PD
+douglas county nv,Douglas County Sheriff's Office,NV,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+mohawk village ny,Mohawk Village Police Department,NY,Task Force Model,1.0,automated,False,South Portland ME PD
+nassau county ny,Nassau County Police Department,NY,Task Force Model,1.0,automated,False,South Portland ME PD
+rensselaer county ny,Rensselaer County Sheriff's Office,NY,Jail Enforcement Model,1.0,automated,False,South Portland ME PD
+oh butler county,Butler County Sheriff's Office,OH,Jail Enforcement Model; Task Force Model,1.0,automated,False,South Portland ME PD
+bixby ok,Bixby Police Department,OK,Task Force Model,1.0,automated,False,South Portland ME PD
+tulsa county ok,Tulsa County Sheriff's Office,OK,Jail Enforcement Model,1.0,automated,False,South Portland ME PD
+ok washita county,Washita County Sheriff's Office,OK,Task Force Model,1.0,automated,False,South Portland ME PD
+butler township pa,Butler Township Police Department,PA,Task Force Model,1.0,automated,False,South Portland ME PD
+franklin township pa,Franklin Township Police Department,PA,Task Force Model,1.0,automated,False,South Portland ME PD
+hazleton pa,Hazleton Police Department,PA,Task Force Model,1.0,automated,False,South Portland ME PD
+greenville county sc,Greenville County Sheriff's Office,SC,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+lancaster county sc,Lancaster County Sheriff's Office,SC,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+south dakota division of criminal investigation,South Dakota Division of Criminal Investigation,SD,Task Force Model,1.0,automated,False,South Portland ME PD
+montgomery county tn,Montgomery County Sheriff's Office,TN,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+shelby county tn,Shelby County Sheriff's Office,TN,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+austin county tx,Austin County Sheriff's Office,TX,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+carson county tx,Carson County Sheriff's Office,TX,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+holland tx,Holland Police Department,TX,Task Force Model,1.0,automated,False,South Portland ME PD
+kendall county tx,Kendall County Sheriff's Office,TX,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+paris tx,Paris Police Department,TX,Task Force Model,1.0,automated,False,South Portland ME PD
+loudoun county va,Loudoun County Sheriff's Office,VA,Warrant Service Officer,1.0,automated,False,South Portland ME PD
+village of clearview wv,Village of Clearview Police Department,WV,Task Force Model,1.0,automated,False,South Portland ME PD

@@ -1,0 +1,20 @@
+[project]
+name = "data-for-press-release-2026-05-08"
+version = "0.1.0"
+description = "Data and analysis supporting the May 8, 2026 No Flock for SoPo press release"
+authors = [{ name = "Cristos L-C", email = "cristos@cristoslc.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2",
+    "pyarrow>=14",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]

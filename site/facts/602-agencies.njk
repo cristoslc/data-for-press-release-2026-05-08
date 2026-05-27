@@ -1,0 +1,72 @@
+---
+title: "602+ Agencies with SPPD Camera Access"
+layout: layout.njk
+permalink: /facts/602-agencies.html
+---
+
+<h1>602+ agencies have access to South Portland's Flock cameras</h1>
+
+<p>The FOAA-obtained <code>SharedNetworks_2026_May_5.csv</code> lists every agency that SPPD shares Flock data with. After normalizing organization names and filtering to rows where SPPD is actively sharing data (<code>Networks I'm Sharing</code> is non-null), the dataset contains <strong>{{ agencies.length }} agencies</strong>.</p>
+
+<h2>Verify this yourself</h2>
+
+<h3>Step 1: Download the data</h3>
+
+<p><a href="{{ "/data/derived/sppd-shared-networks/sppd-shared-networks-normalized.csv" | url }}" class="cta">Download sppd-shared-networks-normalized.csv</a></p>
+
+<p>Or download the raw source from the repo:</p>
+<ul>
+  <li><a href="{{ "/data/sppd-foaa-2026-audit-logs/raw-monthly/SharedNetworks_2026_May_5.csv" | url }}">SharedNetworks_2026_May_5.csv</a> (raw Flock spreadsheet)</li>
+  <li><a href="{{ "/data/derived/sppd-shared-networks/sppd-shared-networks-normalized.csv" | url }}">sppd-shared-networks-normalized.csv</a> (normalized output)</li>
+</ul>
+
+<h3>Step 2: Open in a spreadsheet</h3>
+
+<ol>
+  <li>Open Google Sheets or Excel</li>
+  <li>Go to <strong>File → Import → Upload</strong></li>
+  <li>Upload <code>sppd-shared-networks-normalized.csv</code></li>
+  <li>Select comma as delimiter; the file has headers in row 1</li>
+</ol>
+
+<h3>Step 3: Count the agencies</h3>
+
+<ol>
+  <li>Select the entire column A (<code>normalized_org_name</code>)</li>
+  <li>In a blank cell, enter: <code>=COUNTA(A2:A)</code> (Google Sheets) or <code>=COUNTA(A:A)-1</code> (Excel)</li>
+  <li>The result should be <strong>{{ agencies.length }}</strong></li>
+</ol>
+
+<h3>Step 4: Verify the filter</h3>
+
+<p>The 602 count includes only agencies where SPPD <em>actively shares</em> data. To verify the filter:</p>
+<ol>
+  <li>In the raw <code>SharedNetworks_2026_May_5.csv</code>, filter column C (<code>Networks I'm Sharing</code>) to non-blank values</li>
+  <li>Count the remaining rows — this is the pre-normalization number of sharing agencies</li>
+  <li>After normalization (stripping vendor suffixes like "Flex", "LR"), duplicates are merged, producing the final {{ agencies.length }} count</li>
+</ol>
+
+<h2>Sample agencies</h2>
+
+<table>
+  <thead>
+    <tr><th>Agency (normalized)</th><th>State</th><th>Networks shared</th></tr>
+  </thead>
+  <tbody>
+    {% for a in agencies.slice(0, 30) %}
+    <tr>
+      <td>{{ a.normalized_org_name }}</td>
+      <td>{{ a.state | upper }}</td>
+      <td>{{ a.networks_im_sharing }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class="footnote">Showing first 30 of {{ agencies.length }} agencies.</p>
+
+<h2>Methodology</h2>
+
+<p>Organization names from the raw Flock spreadsheet were normalized by extracting state codes, stripping common suffixes (PD, SO, Sheriff's Office, etc.), and lowercasing. Only rows where SPPD is actively sharing data (<code>Networks I'm Sharing</code> is non-null) are counted.</p>
+
+<p><a href="{{ "/methodology/deduplication.html" | url }}">Deduplication methodology →</a></p>

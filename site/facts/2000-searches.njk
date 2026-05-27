@@ -1,0 +1,79 @@
+---
+title: "Over 2,000 Flock Searches"
+layout: layout.njk
+permalink: /facts/2000-searches.html
+---
+
+<h1>Over 2,000 searches logged since April 2025</h1>
+
+<p>SPPD's Flock audit logs contain <strong>2,007 raw query rows</strong> (one per network per search session). After deduplicating sessions that query multiple networks, this becomes <strong>{{ dedupedStats.deduped | number }} unique search sessions</strong>.</p>
+
+<h2>Verify this yourself</h2>
+
+<h3>Step 1: Download the data</h3>
+
+<p><a href="{{ "/outputs/audit-logs-deduplicated/sopo-flock-audit-deduped.csv" | url }}" class="cta">Download sopo-flock-audit-deduped.csv</a></p>
+
+<p>Raw source files:</p>
+<ul>
+  <li><a href="{{ "/data/sppd-foaa-2026-audit-logs/Combined Audit Logs - Apr 25 through Mar 26.csv" | url }}">Combined Audit Logs - Apr 25 through Mar 26.csv</a> (all 2,007 raw rows merged)</li>
+  <li>Individual monthly files in <code>data/sppd-foaa-2026-audit-logs/raw-monthly/</code></li>
+</ul>
+
+<h3>Step 2: Open in a spreadsheet</h3>
+
+<ol>
+  <li>Open Google Sheets or Excel</li>
+  <li>Go to <strong>File → Import → Upload</strong></li>
+  <li>Upload <code>sopo-flock-audit-deduped.csv</code></li>
+  <li>Columns: <code>Name</code>, <code>Org Name</code>, <code>Reason</code>, <code>Case #</code>, <code>Time Frame</code>, <code>Search Type</code>, <code>Search Date</code>, <code>Search Time</code>, <code>Networks Queried</code>, <code>Source File</code></li>
+</ol>
+
+<h3>Step 3: Count the deduplicated sessions</h3>
+
+<ol>
+  <li>Count all data rows: <code>=COUNTA(A2:A)</code></li>
+  <li>The result should be <strong>{{ dedupedStats.deduped | number }}</strong></li>
+</ol>
+
+<h3>Step 4: Verify the raw count</h3>
+
+<ol>
+  <li>Open the combined raw file: <code>Combined Audit Logs - Apr 25 through Mar 26.csv</code></li>
+  <li>Count all data rows: this should be <strong>2,007</strong></li>
+  <li>Notice some rows share the same officer, reason, and time window but have different network counts — these are the multi-network sessions</li>
+</ol>
+
+<h3>Step 5: Understand the deduplication</h3>
+
+<ol>
+  <li>In the deduped file, look at column I (<code>Networks Queried</code>)</li>
+  <li>Rows where <code>Networks Queried</code> > 1 represent sessions that originally spanned multiple networks</li>
+  <li>The difference 2,007 − {{ dedupedStats.deduped | number }} = {{ 2007 - dedupedStats.deduped }} rows were merged</li>
+</ol>
+
+<h2>Raw vs. deduplicated</h2>
+
+<table>
+  <thead>
+    <tr><th>Metric</th><th>Count</th><th>Explanation</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Raw audit log rows</td>
+      <td>2,007</td>
+      <td>Each row = one network queried in one search session</td>
+    </tr>
+    <tr>
+      <td>Deduplicated search sessions</td>
+      <td>{{ dedupedStats.deduped | number }}</td>
+      <td>Merged rows where the same officer searched multiple networks in one session</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The "over 2,000 searches" claim in the press release counts the raw per-network query rows (2,007) for simplicity and impact. The deduplicated count ({{ dedupedStats.deduped | number }}) is the more conservative figure.</p>
+
+<h2>Methodology</h2>
+
+<p><a href="{{ "/methodology/deduplication.html" | url }}">Deduplication methodology →</a></p>

@@ -1,0 +1,4 @@
+sppd_original_name,ice_agency,ice_state,support_types,confidence,verdict,notes
+Fish and Wildlife Commission FL PD,Florida Fish & Wildlife Conservation Commission,FL,Task Force Model,0.60,accepted,SPPD name omits 'Florida' and 'Conservation'; automated Jaccard 0.60 below 0.75 threshold
+Pennsylvania State PD,"Pennsylvania State Constable's Office, Cooke Township",PA,Task Force Model,0.00,rejected,False positive: Pennsylvania State Police is a statewide agency unrelated to Cooke Township constable office. Short-prefix containment hit eliminated by union Jaccard fix.
+Bradford County Detectives PA,Bradford County Sheriff's Office,PA,Warrant Service Officer,0.00,rejected,False positive: Detectives is a sub-unit within the Sheriff's Office not the SO itself. Suffix strip removes 'detectives' making it match but they are different entities.

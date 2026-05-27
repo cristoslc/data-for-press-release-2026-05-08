@@ -1,0 +1,56 @@
+---
+title: "Assist-Other Classification Methodology"
+layout: layout.njk
+permalink: /methodology/assist-classification.html
+---
+
+<h1>Classifying assist-other-agency searches</h1>
+
+<h2>Objective</h2>
+
+<p>Identify audit log entries where an SPPD officer ran a Flock search while assisting or coordinating with another law enforcement agency.</p>
+
+<h2>Source</h2>
+
+<p><code>outputs/audit-logs-deduplicated/sopo-flock-audit-deduped.csv</code> — 1,572 rows after deduplication.</p>
+
+<h2>Classification logic</h2>
+
+<p>The classifier scans the <code>Reason</code> field (free-text search justification) using regular expressions targeting two categories:</p>
+
+<h3>Category 1 — <code>assist-other</code> (67 hits)</h3>
+
+<p>Explicit language indicating cross-agency assistance:</p>
+
+<ul>
+  <li><code>assist other</code> / <code>assist  other</code> (case-insensitive, extra spaces)</li>
+  <li><code>"File 1"</code> paired with a named agency (e.g., <code>"Portland file 1"</code>)</li>
+  <li>Phrases like <code>"Assist other agency investigation"</code></li>
+</ul>
+
+<h3>Category 2 — <code>statewide-system</code> (40 hits)</h3>
+
+<p>Searches routed through statewide systems:</p>
+
+<ul>
+  <li><code>MIAC</code> (Maine Information Analysis Center)</li>
+  <li><code>MDEA</code> (Maine Drug Enforcement Agency)</li>
+  <li><code>MSP</code> (Maine State Police)</li>
+</ul>
+
+<h2>Caveats</h2>
+
+<ul>
+  <li>Not all MIAC/MDEA entries are cross-agency — some may be SPPD officers querying their own cases.</li>
+  <li><code>"File 1"</code> is ambiguous — can mean SPPD's file or another agency's file.</li>
+  <li>Reason text is self-reported — no verification against case records.</li>
+  <li>Does not capture all assist activity — searches under SPPD case numbers that assist another agency are missed.</li>
+</ul>
+
+<h2>Output</h2>
+
+<p><code>outputs/assist-other-agencies/assist-other-agencies.csv</code> — 107 rows with added columns <code>assist_label</code> and <code>assist_pattern</code>.</p>
+
+<h2>Script</h2>
+
+<p><code>analysis/classify_assist_other.py</code></p>

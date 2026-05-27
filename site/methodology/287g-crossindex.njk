@@ -1,0 +1,81 @@
+---
+title: "287(g) Cross-Index Methodology"
+layout: layout.njk
+permalink: /methodology/287g-crossindex.html
+---
+
+<h1>Cross-indexing SPPD agencies against ICE 287(g) participants</h1>
+
+<h2>Sources</h2>
+
+<table>
+  <thead>
+    <tr><th>File</th><th>Role</th><th>SHA-256</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>SharedNetworks_2026_May_5.csv</code></td>
+      <td>SPPD FOIA response — all agencies in SPPD's Flock network</td>
+      <td><code>75729def…</code></td>
+    </tr>
+    <tr>
+      <td><code>ice-287g-deduped.csv</code></td>
+      <td>ICE.gov official 287(g) participant list — 1,503 agencies</td>
+      <td><code>aaf71a60…</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Normalization</h2>
+
+<ol>
+  <li><strong>State extraction</strong> — Full state names and 2-letter codes are matched and converted to canonical 2-letter codes. Non-state tokens (PD, SO, IB, LR) are excluded.</li>
+  <li><strong>State suffix removal</strong> — All state code tokens are stripped from agency names after extraction.</li>
+  <li><strong>Name normalization</strong> — Common suffixes (Police Department, Sheriff's Office, County Sheriff, PD, SO, Commission, Department, etc.), punctuation, and vendor tags are stripped. The name is lowercased to a canonical token set.</li>
+</ol>
+
+<h2>Matching logic</h2>
+
+<p>An SPPD agency and an ICE 287(g) agency match if:</p>
+
+<ol>
+  <li><strong>State match</strong>: Same 2-letter state code (hard constraint). If no state is extractable from the SPPD name, only exact normalized name matches are allowed.</li>
+  <li><strong>Name similarity</strong>: Exact normalized match, OR Jaccard word-overlap ≥ 0.75 using the <strong>union</strong> denominator (<code>|A ∩ B| / |A ∪ B|</code>).</li>
+</ol>
+
+<h2>Confidence scoring</h2>
+
+<table>
+  <thead>
+    <tr><th>Score</th><th>Method</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1.0</td><td>automated (exact)</td><td>Normalized names match exactly</td></tr>
+    <tr><td>0.75–0.99</td><td>automated (fuzzy)</td><td>Jaccard ≥ 0.75</td></tr>
+    <tr><td>&lt;0.75</td><td>manual</td><td>Accepted via manual review</td></tr>
+  </tbody>
+</table>
+
+<h2>Manual mappings</h2>
+
+<p>1 accepted: <strong>Florida Fish & Wildlife Conservation Commission</strong> (SPPD omits "Florida" and "Conservation"; Jaccard 0.60).</p>
+
+<p>2 rejected as false positives: Pennsylvania State PD, Bradford County Detectives PA.</p>
+
+<h2>Verification</h2>
+
+<p>All 73 entries were independently verified on 2026-05-11 against both the in-repo ICE data and a live download from ICE.gov. <strong>0 discrepancies found.</strong></p>
+
+<p>Full verification report: <a href="https://github.com/cristoslc/data-for-press-release-2026-05-08/blob/main/outputs/sppd-287g-crossindex/VERIFICATION.md">VERIFICATION.md</a> on GitHub</p>
+
+<h2>Known limitations</h2>
+
+<ul>
+  <li>Name-matching only — no address, phone, or geospatial matching.</li>
+  <li>ICE list may not reflect all current 287(g) agreements.</li>
+  <li>Sub-units (e.g., "Detectives") may match parent SO after suffix stripping.</li>
+</ul>
+
+<h2>Script</h2>
+
+<p><code>analysis/crossindex.py</code></p>

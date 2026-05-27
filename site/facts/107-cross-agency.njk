@@ -1,0 +1,104 @@
+---
+title: "107 Cross-Agency Searches"
+layout: layout.njk
+permalink: /facts/107-cross-agency.html
+---
+
+<h1>107 instances of cross-agency searches</h1>
+
+<p>Of the {{ dedupedStats.deduped | number }} deduplicated search sessions, <strong>{{ assistOther.total }} were conducted on behalf of or through coordination with other agencies</strong>: {{ assistOther.assistOtherCount }} explicitly cross-agency, {{ assistOther.statewideCount }} through statewide systems.</p>
+
+<h2>Verify this yourself</h2>
+
+<h3>Step 1: Download the data</h3>
+
+<p><a href="{{ "/outputs/assist-other-agencies/assist-other-agencies.csv" | url }}" class="cta">Download assist-other-agencies.csv</a></p>
+
+<p>Source file used for classification:</p>
+<ul>
+  <li><a href="{{ "/outputs/audit-logs-deduplicated/sopo-flock-audit-deduped.csv" | url }}">sopo-flock-audit-deduped.csv</a> (1,572 deduplicated search sessions)</li>
+</ul>
+
+<h3>Step 2: Open in a spreadsheet</h3>
+
+<ol>
+  <li>Open Google Sheets or Excel</li>
+  <li>Go to <strong>File → Import → Upload</strong></li>
+  <li>Upload <code>assist-other-agencies.csv</code></li>
+  <li>Columns include all audit log fields plus <code>assist_label</code> and <code>assist_pattern</code></li>
+</ol>
+
+<h3>Step 3: Count by category</h3>
+
+<ol>
+  <li>In a blank cell: <code>=COUNTIF(K2:K, "assist-other")</code> to count explicit cross-agency searches</li>
+  <li>Result should be <strong>{{ assistOther.assistOtherCount }}</strong></li>
+  <li>In another cell: <code>=COUNTIF(K2:K, "statewide-system")</code> to count statewide-system searches</li>
+  <li>Result should be <strong>{{ assistOther.statewideCount }}</strong></li>
+  <li>Total: <code>=SUM(the two cells)</code> should be <strong>{{ assistOther.total }}</strong></li>
+</ol>
+
+<h3>Step 4: Spot-check the classifications</h3>
+
+<ol>
+  <li>Filter column K (<code>assist_label</code>) to <code>assist-other</code></li>
+  <li>Look at column C (<code>Reason</code>) — you should see phrases like "Assist other", "assist other", "Assist other agency investigation"</li>
+  <li>Now filter K to <code>statewide-system</code></li>
+  <li>Look at column C — you should see "MIAC request", "MDEA Investigation", "mdea via miac"</li>
+</ol>
+
+<h3>Step 5: Verify from the source</h3>
+
+<ol>
+  <li>Open <code>sopo-flock-audit-deduped.csv</code> in a separate tab</li>
+  <li>In column C (<code>Reason</code>), search for "assist" — count matches</li>
+  <li>Search for "miac" or "mdea" — count matches</li>
+  <li>These numbers should match the classified counts above</li>
+</ol>
+
+<h2>Breakdown</h2>
+
+<div class="breakdown-labels">
+  <span class="dot-assist">■</span> <span>Assist other ({{ assistOther.assistOtherCount }})</span>
+  <span class="dot-statewide">■</span> <span>Statewide system ({{ assistOther.statewideCount }})</span>
+</div>
+
+<div class="breakdown-bar">
+  <div class="seg-assist" style="width: {{ assistOther.assistOtherBarPct }}%"></div>
+  <div class="seg-statewide" style="width: {{ 100 - assistOther.assistOtherBarPct }}%"></div>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Category</th><th>Count</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>assist-other</code></td>
+      <td>{{ assistOther.assistOtherCount }}</td>
+      <td>Reason text contains "assist other", "File 1" with named agency, or similar cross-agency language</td>
+    </tr>
+    <tr>
+      <td><code>statewide-system</code></td>
+      <td>{{ assistOther.statewideCount }}</td>
+      <td>Routed through MIAC, MDEA, or MSP — statewide information-sharing systems</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><strong>{{ assistOther.total }}</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Important caveats</h2>
+
+<ul>
+  <li>Not all MIAC/MDEA entries are cross-agency — some may be SPPD officers using statewide systems for their own cases.</li>
+  <li>"File 1" is ambiguous — it may refer to another agency's file or SPPD's own.</li>
+  <li>Reason text is self-reported by officers and has not been verified against case records.</li>
+</ul>
+
+<h2>Methodology</h2>
+
+<p><a href="{{ "/methodology/assist-classification.html" | url }}">Assist-other classification methodology →</a></p>

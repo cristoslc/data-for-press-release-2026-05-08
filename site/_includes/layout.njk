@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} — No Flock for SoPo</title>
+  <link rel="stylesheet" href="{{ "/assets/style.css" | url }}">
+  <script>
+  (function(){
+    var t=localStorage.getItem('theme');
+    if(t)document.documentElement.setAttribute('data-theme',t);
+    else if(window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');
+  })();
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="{{ "/" | url }}" class="nav-home">No Flock for SoPo</a>
+    <a href="{{ "/facts/602-agencies.html" | url }}">Facts</a>
+    <a href="{{ "/methodology/overview.html" | url }}">Methodology</a>
+    <a href="{{ "/reproducibility.html" | url }}">Reproducibility</a>
+    <button class="theme-toggle" onclick="(function(){var d=document.documentElement,n=d.getAttribute('data-theme'),v=n==='dark'?'light':'dark';d.setAttribute('data-theme',v);localStorage.setItem('theme',v);})()">&#9681;</button>
+  </nav>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    <p>Data from FOAA-obtained Flock Safety audit logs, South Portland Police Department. Analysis independently reproducible via <a href="{{ "/reproducibility.html" | url }}">run.sh</a>.</p>
+  </footer>
+</body>
+</html>

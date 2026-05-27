@@ -1,0 +1,84 @@
+---
+title: "Nearly Two-Thirds Unnamed Agencies"
+layout: layout.njk
+permalink: /facts/nearly-two-thirds.html
+---
+
+<h1>Nearly two-thirds of cross-agency searches were for unnamed agencies</h1>
+
+<p>Of the {{ assistOther.total }} cross-agency search sessions, <strong>{{ assistOther.assistOtherCount }} ({{ assistOther.assistOtherPct }}%)</strong> were categorized as <code>assist-other</code> — meaning the officer's reason text indicates cross-agency assistance but <strong>does not name the specific agency</strong>.</p>
+
+<h2>Verify this yourself</h2>
+
+<h3>Step 1: Download the data</h3>
+
+<p><a href="{{ "/outputs/assist-other-agencies/assist-other-agencies.csv" | url }}" class="cta">Download assist-other-agencies.csv</a></p>
+
+<h3>Step 2: Open in a spreadsheet</h3>
+
+<ol>
+  <li>Open Google Sheets or Excel</li>
+  <li>Go to <strong>File → Import → Upload</strong></li>
+  <li>Upload <code>assist-other-agencies.csv</code></li>
+</ol>
+
+<h3>Step 3: Calculate the percentage</h3>
+
+<ol>
+  <li>In a blank cell: <code>=COUNTIF(K2:K, "assist-other")</code> — result: <strong>{{ assistOther.assistOtherCount }}</strong></li>
+  <li>In another cell: <code>=COUNTA(K2:K)</code> — result: <strong>{{ assistOther.total }}</strong></li>
+  <li>Calculate the percentage: <code>= assist-other count / total * 100</code></li>
+  <li>Result should be <strong>{{ assistOther.assistOtherPct }}%</strong></li>
+</ol>
+
+<h3>Step 4: Examine the unnamed agencies</h3>
+
+<ol>
+  <li>Filter column K (<code>assist_label</code>) to <code>assist-other</code></li>
+  <li>Look at column C (<code>Reason</code>) — note how many say just "Assist other" or "assist other" with no agency name</li>
+  <li>Count how many rows in this filtered set have no agency name in the Reason field</li>
+  <li>That count divided by {{ assistOther.total }} is the "nearly two-thirds" figure</li>
+</ol>
+
+<h3>Step 5: Cross-check with the statewide-system entries</h3>
+
+<ol>
+  <li>Filter column K to <code>statewide-system</code></li>
+  <li>These {{ assistOther.statewideCount }} entries at least name the routing system (MIAC/MDEA)</li>
+  <li>But the ultimate requesting agency within that system is often unclear</li>
+</ol>
+
+<h2>The calculation</h2>
+
+<table>
+  <thead>
+    <tr><th>Category</th><th>Count</th><th>% of total</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Assist other (unnamed agency)</td>
+      <td>{{ assistOther.assistOtherCount }}</td>
+      <td>{{ assistOther.assistOtherPct }}%</td>
+    </tr>
+    <tr>
+      <td>Statewide system (MIAC/MDEA/MSP)</td>
+      <td>{{ assistOther.statewideCount }}</td>
+      <td>{{ assistOther.statewidePct }}%</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><strong>{{ assistOther.total }}</strong></td>
+      <td>100%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Why this matters</h2>
+
+<p>The "assist-other" category includes entries like <code>"Assist other"</code>, <code>"assist other"</code>, <code>"Assist  other. Homicide."</code> — these indicate an SPPD officer ran a Flock search for another agency, but <strong>the specific agency is not identified</strong> in the audit log.</p>
+
+<p>This means South Portland residents cannot know which outside agencies are using their local Flock data — only that someone is. The <code>statewide-system</code> entries at least identify the routing system (MIAC/MDEA), but the ultimate requesting agency is often unclear.</p>
+
+<h2>Methodology</h2>
+
+<p><a href="{{ "/methodology/assist-classification.html" | url }}">Assist-other classification methodology →</a></p>
